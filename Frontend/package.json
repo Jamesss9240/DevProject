@@ -1,0 +1,12 @@
+{
+  "name": "code-improvement-web-app",
+  "version": "1.0.0",
+  "description": "A simple web app for code improvement",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./HTML"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

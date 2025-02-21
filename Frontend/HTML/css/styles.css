@@ -1,0 +1,67 @@
+#themeSelectText {
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.themeSelectBTN {
+    margin: 5px;
+    padding: 10px;
+}
+.themeSelectBTN:hover {
+    background-color: grey;
+}
+ol {
+    list-style: none;
+    align-items: center;
+}
+.navList {
+    display: flex;
+    align-items: center;
+}
+#titleText {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body.dark-theme {
+    background-color: #303030 !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .navbar {
+    background-color: #212529 !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .btn-outline-secondary {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.dark-theme #themeSelectText {
+    color: #ffffff !important;
+}
+
+.dark-theme #titleText {
+    color: #ffffff !important;
+}
