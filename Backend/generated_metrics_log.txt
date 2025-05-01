@@ -218,3 +218,130 @@ for i in range(4)
     print("testing for loop")
 METRICS: {'security': 82.4344482421875, 'maintainability': 94.11389923095703, 'performance': 85.38133239746094, 'reliability': 46.58287811279297, 'fucntionality': 63.31881332397461}
 
+LANGUAGE: python
+CODE:
+for i in range(4)
+    print("test")
+METRICS: {'security': 80.25740814208984, 'maintainability': 91.1927261352539, 'performance': 83.49215698242188, 'reliability': 45.32272720336914, 'fucntionality': 57.92645263671875}
+
+LANGUAGE: python
+CODE:
+for j in range(4)
+    print("test")
+METRICS: {'security': 79.68905639648438, 'maintainability': 90.3067855834961, 'performance': 82.33320617675781, 'reliability': 45.01991271972656, 'fucntionality': 61.65953826904297}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+METRICS: {'security': 79.36060333251953, 'maintainability': 77.3564453125, 'performance': 80.65007019042969, 'reliability': 44.85901641845703, 'fucntionality': 61.30740737915039}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello"
+METRICS: {'security': 81.73955535888672, 'maintainability': 95.098388671875, 'performance': 89.13248443603516, 'reliability': 45.97824478149414, 'fucntionality': 57.29677963256836}
+
+LANGUAGE: csharp
+CODE:
+Console.WriteLine("Hello"
+METRICS: {'security': 82.9258041381836, 'maintainability': 90.8987045288086, 'performance': 86.73822021484375, 'reliability': 46.622398376464844, 'fucntionality': 54.758907318115234}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+METRICS: {'security': 79.36060333251953, 'maintainability': 77.3564453125, 'performance': 80.65007019042969, 'reliability': 44.85901641845703, 'fucntionality': 61.30740737915039}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello"
+METRICS: {'security': 81.73955535888672, 'maintainability': 95.098388671875, 'performance': 89.13248443603516, 'reliability': 45.97824478149414, 'fucntionality': 57.29677963256836}
+
+LANGUAGE: csharp
+CODE:
+Console.WriteLine("Hello"
+METRICS: {'security': 82.9258041381836, 'maintainability': 90.8987045288086, 'performance': 86.73822021484375, 'reliability': 46.622398376464844, 'fucntionality': 54.758907318115234}
+
+LANGUAGE: python
+CODE:
+for j in range(4)
+    print("test")
+METRICS: {'security': 79.68905639648438, 'maintainability': 90.3067855834961, 'performance': 82.33320617675781, 'reliability': 45.01991271972656, 'fucntionality': 61.65953826904297}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello"
+METRICS: {'security': 81.73955535888672, 'maintainability': 95.098388671875, 'performance': 89.13248443603516, 'reliability': 45.97824478149414, 'fucntionality': 57.29677963256836}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+
+METRICS: {'security': 80.0153579711914, 'maintainability': 70.64529418945312, 'performance': 78.89592742919922, 'reliability': 45.16931915283203, 'fucntionality': 63.010562896728516}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello'
+
+METRICS: {'security': 79.41085815429688, 'maintainability': 63.094581604003906, 'performance': 76.81385040283203, 'reliability': 44.733978271484375, 'fucntionality': 56.472328186035156}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print("Hello"
+
+METRICS: {'security': 80.02555847167969, 'maintainability': 86.82796478271484, 'performance': 84.65699768066406, 'reliability': 45.129638671875, 'fucntionality': 55.14718246459961}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+METRICS: {'security': 79.36060333251953, 'maintainability': 77.3564453125, 'performance': 80.65007019042969, 'reliability': 44.85901641845703, 'fucntionality': 61.30740737915039}
+
+LANGUAGE: python
+CODE:
+for j in range(4)
+ print("test")
+METRICS: {'security': 79.68905639648438, 'maintainability': 90.3067855834961, 'performance': 82.33320617675781, 'reliability': 45.01991271972656, 'fucntionality': 61.65953826904297}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+METRICS: {'security': 79.36060333251953, 'maintainability': 77.3564453125, 'performance': 80.65007019042969, 'reliability': 44.85901641845703, 'fucntionality': 61.30740737915039}
+
+LANGUAGE: python
+CODE:
+for j in range(4)
+    print("test")
+METRICS: {'security': 79.68905639648438, 'maintainability': 90.3067855834961, 'performance': 82.33320617675781, 'reliability': 45.01991271972656, 'fucntionality': 61.65953826904297}
+
+LANGUAGE: python
+CODE:
+def hello():
+    print('Hello world'
+METRICS: {'security': 79.36060333251953, 'maintainability': 77.3564453125, 'performance': 80.65007019042969, 'reliability': 44.85901641845703, 'fucntionality': 61.30740737915039}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello"
+METRICS: {'security': 81.73955535888672, 'maintainability': 95.098388671875, 'performance': 89.13248443603516, 'reliability': 45.97824478149414, 'fucntionality': 57.29677963256836}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello model!"
+METRICS: {'security': 83.21797180175781, 'maintainability': 98.01166534423828, 'performance': 91.59390258789062, 'reliability': 46.81422424316406, 'fucntionality': 59.94546127319336}
+
+LANGUAGE: go
+CODE:
+func main() {
+    fmt.Println("Hello model!"
+METRICS: {'security': 83.21797180175781, 'maintainability': 98.01166534423828, 'performance': 91.59390258789062, 'reliability': 46.81422424316406, 'fucntionality': 59.94546127319336}
+
