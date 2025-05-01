@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     lightThemeButton.addEventListener('click', () => setTheme('light'));
     darkThemeButton.addEventListener('click', () => setTheme('dark'));
 
-    // Load saved theme on page load/preferred theme based off users OS setting
+    //load based off users setup on their OS (light/dark)
     const savedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light');
     setTheme(savedTheme);
 });

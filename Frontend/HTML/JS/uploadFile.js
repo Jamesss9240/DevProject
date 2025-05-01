@@ -3,7 +3,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
     if (file) {
       
       if (!file.type.startsWith('text/')) {
-        alert('Invalid file type. Please upload a text-readable file.');
+        alert('Invalid file type.');
         return;
       }
       
